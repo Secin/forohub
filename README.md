@@ -59,7 +59,16 @@ Se emplearon :
 
 :heavy_check_mark: `Generación de Token con JWT:` Para mayor seguridad de la aplicación, se implemento tokens para la autenticación con JWT(JSON Web Token) estandar utilizado para compartir información entre cliente y servidor.
 
-:heavy_check_mark: `Autenticación con JWT:` Servicio implementado para la autenticación al gestionar los topicos como crear, consultar, listar, actualizar y eliminar. .
+:heavy_check_mark: `Autenticación con JWT:` Servicio implementado para la autenticación al gestionar los topicos como crear, consultar, listar, actualizar y eliminar.
+
+
+## Repositorio:
+
+    https://github.com/Secin/forohub.git
+
+## Autor:
+
+Ing. Cinthia Karen Anaya Muñoz GitHub: <a href="https://github.com/Secin" target="_blank">@Secin</a> 
 
 
 
