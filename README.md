@@ -18,6 +18,9 @@ Proporciona un conjunto de operaciones CRUD (Create, Read, Update, Delete), comp
 La arquitectura y el desarrollo se adhieren estrictamente a los principios de diseño de APIs RESTful, siguiendo estándares de codificación y buenas prácticas de ingeniería de software.
 </p>
 
+<img width="1557" height="1162" alt="image" src="https://github.com/user-attachments/assets/d5e4fae5-2764-4b18-8398-be620b4539b4" />
+
+
 ## Tecnologías Empleadas
 
 Se emplearon :
