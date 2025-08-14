@@ -41,7 +41,7 @@ Se emplearon :
 
 :heavy_check_mark: `Registro de un nuevo Topico :` Cuenta con un endpoint(punto final) para el registro de tópicos , aceptando solicitudes POST para la URI/tópicos.
 
-:heavy_check_mark: `Listar Tópicos:` Cuenta con dos endpoint(punto final) para listar todos los tópicos con solicitudes del tipo GET:
+:heavy_check_mark: `Listar Tópicos:` Cuenta con tres endpoint(punto final) para listar todos los tópicos con solicitudes del tipo GET:
 
     http://localhost:8080/topicos // Lista todos los tópicos registrados.
 
