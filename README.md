@@ -28,7 +28,7 @@ Se emplearon :
 - Java 17
 - Spring Boot 3.5.4
 - MySQL 10.4.32-MariaDB
-- Librerias como [JPA + Spring Data - Flyway - Lombok - Jakarta Validation - Spring Security - Auth0 JWT (java-jwt) ]
+- Librerias como: JPA + Spring Data - Flyway - Lombok - Jakarta Validation - Spring Security - Auth0 JWT (java-jwt)
 - Insomnia 
 
 <a href="https://www.java.com" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> <a href="https://developer.android.com/studio" target="_blank"> <img src="https://d1.awsstatic.com/asset-repository/products/amazon-rds/1024px-MySQL.ff87215b43fd7292af172e2a5d9b844217262571.png" alt="androidStudio" width="40" height="40"/> </a> 
