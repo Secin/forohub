@@ -1,4 +1,4 @@
-<h1> Servicio REST Foro HUB para manejo de tópicos </h1>
+<h1> Servicio REST Foro HUB para el manejo de tópicos </h1>
 
 
 ### Tópicos 
@@ -39,11 +39,28 @@ Se emplearon :
 
 ## Funcionalidades
 
-:heavy_check_mark: `Funcionalidade 1:` Realizar cadastro dos usuários, podendo ser paciente ou profissional de saúde.
+:heavy_check_mark: `Registro de un nuevo Topico :` Cuenta con un endpoint(punto final) para el registro de tópicos , aceptando solicitudes POST para la URI/tópicos.
 
-:heavy_check_mark: `Funcionalidade 2:` Armazenar dados do usuário, como glicemia, atividade física, alimentação, medicação, administração de insulina e peso no banco de dados na Cloud Firestore.
+:heavy_check_mark: `Listar Tópicos:` Cuenta con dos endpoint(punto final) para listar todos los tópicos con solicitudes del tipo GET:
 
-:heavy_check_mark: `Funcionalidade 3:` Plotar gráfico com histórico dos níveis glicêmicos do paciente.
+    http://localhost:8080/topicos // Lista todos los tópicos registrados.
 
-:heavy_check_mark: `Funcionalidade 4:` Chat com entre o paciente e profissional da saúde.
+    http://localhost:8080/topicos?curso=PROGRAMACION // Lista los tópicos que pertenecen al curso de Programación
+
+    http://localhost:8080/topicos?anio=2024 // Lista los tópicos del año 2024
+
+
+
+:heavy_check_mark: `Detallar Tópico:` Cuenta con un endpoint(punto final) para listar el tópico llamado por una solicitud de tipo GET para la URI /tópico/{id}.
+
+:heavy_check_mark: `Actualizar Tópico:`  Cuenta con un endpoint(punto final) para la actualización de un determinado tópico aceptando solicitudes del tipo PUT para la URI /tópico/{id}.
+
+:heavy_check_mark: `Eliminar Tópico:`  Cuenta con un endpoint(punto final) para la eliminación de un determinado tópico aceptando solicitudes del tipo DELETE para la URI /tópico/{id} .
+
+:heavy_check_mark: `Generación de Token con JWT:` Para mayor seguridad de la aplicación, se implemento tokens para la autenticación con JWT(JSON Web Token) estandar utilizado para compartir información entre cliente y servidor.
+
+:heavy_check_mark: `Autenticación con JWT:` Servicio implementado para la autenticación al gestionar los topicos como crear, consultar, listar, actualizar y eliminar. .
+
+
+
 
